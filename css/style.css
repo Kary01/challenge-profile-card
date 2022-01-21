@@ -21,23 +21,38 @@ html {
 
 body {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: grid;
   place-items: center;
   font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--Dark-cyan);
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card {
-  width: 300px;
+  width: 280px;
   height: 330px;
-  background-color: peachpuff;
+  background-color: white;
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
 }
 
 .card .card__upper {
   width: 100%;
   height: 100px;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
 }
 
 .card .card__upper .card__upper--image {
