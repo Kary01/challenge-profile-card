@@ -31,6 +31,8 @@ body {
   width: 300px;
   height: 300px;
   background-color: peachpuff;
+  display: flex;
+  flex-direction: column;
 }
 
 .card .card__upper {
@@ -46,4 +48,29 @@ body {
   top: 60px;
   border-radius: 50%;
   border: 5px solid white;
+}
+
+.card .card__info {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .card__info h1 {
+  margin-top: 60px;
+  font-size: var(--Body-copy);
+}
+
+.card .card__info span {
+  margin-left: 10px;
+  color: var(--Dark-grayish-blue);
+}
+
+.card .card__info p {
+  margin-top: 12px;
+  font-size: 1.4rem;
+  color: var(--Dark-grayish-blue);
 }
