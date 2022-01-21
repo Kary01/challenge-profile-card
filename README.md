@@ -42,7 +42,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### What I learned
 
-In his practice I used the background CSS properties.
+In this practice I used the background CSS properties.
 For example:
 
 - The `background-image` property sets one or more background images for an element.
