@@ -46,6 +46,7 @@ main {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  box-shadow: 0px 40px 100px hsla(229, 23%, 23%, 0.3);
 }
 
 .card .card__upper {
@@ -78,6 +79,7 @@ main {
 .card .card__info h1 {
   margin-top: 60px;
   font-size: var(--Body-copy);
+  color: var(--Very-dark-desaturated-blue);
   font-weight: 700;
 }
 
@@ -106,10 +108,16 @@ main {
 
 .card .card__details .card__details--number {
   font-size: var(--Body-copy);
+  color: var(--Very-dark-desaturated-blue);
   font-weight: 700;
 }
 
 .card .card__details .card__details--subtitle {
   margin-top: 5px;
   color: var(--Dark-grayish-blue);
+  font-weight: 400;
+}
+
+footer {
+  display: none;
 }
