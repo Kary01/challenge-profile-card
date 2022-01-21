@@ -23,12 +23,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![desktop-screenshot](./screenshot.jpg)
+![desktop-screenshot](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-solution-tEp6ua-AE)
+- Live Site URL: [Github Page URL here](https://github.com/Kary01/challenge-profile-card)
 
 ## My process
 
