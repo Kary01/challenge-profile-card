@@ -73,7 +73,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid var(--Dark-gray);
+  border-bottom: 1px solid lightgrey;
 }
 
 .card .card__info h1 {
@@ -120,4 +120,16 @@ main {
 
 footer {
   display: none;
+  font-size: 11px; 
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 50%, 10%); 
+}
+
+@media screen and (max-width:425px){
+  footer {
+    display: block;
+  }
 }
