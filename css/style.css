@@ -34,6 +34,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
   background-position: right 50vw bottom 50vh, left 50vw top 50vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +53,7 @@ main {
 .card .card__upper {
   width: 100%;
   height: 100px;
+  background-image: url('../images/bg-pattern-card.svg');
   background-repeat: no-repeat;
   border-radius: 20px 20px 0 0;
 }
